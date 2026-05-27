@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.PrismReaction" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

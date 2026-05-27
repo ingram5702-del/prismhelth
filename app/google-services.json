@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "868003490014",
+    "project_id": "prismhealth123-60efe",
+    "storage_bucket": "prismhealth123-60efe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868003490014:android:f19b0ebe644201e5267a4f",
+        "android_client_info": {
+          "package_name": "com.prismwin.apps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSNFoS0sreP2tPhxUSRguiFj2GXOuIW-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

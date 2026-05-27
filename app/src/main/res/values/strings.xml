@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Prisma Win</string>
+    <string name="reminder_channel_name">Daily challenges</string>
+    <string name="reminder_channel_description">Daily training reminders</string>
+</resources>
