@@ -6,4 +6,7 @@ local.properties
 .DS_Store
 *.iml
 *.jks
+*.aab
+*.apk
 .cxx/
+app/release/
