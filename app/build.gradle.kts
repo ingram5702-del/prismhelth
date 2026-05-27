@@ -109,7 +109,9 @@ tasks.matching { task ->
 
 tasks.matching { task ->
     (task.name.startsWith("generate") && task.name.endsWith("LintReportModel")) ||
-        task.name.startsWith("lintAnalyze")
+        (task.name.startsWith("generate") && task.name.endsWith("LintVitalReportModel")) ||
+        task.name.startsWith("lintAnalyze") ||
+        task.name.startsWith("lintVitalAnalyze")
 }.configureEach {
     dependsOn(copyGoogleServicesToAssets)
 }
