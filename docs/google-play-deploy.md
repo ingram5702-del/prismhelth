@@ -26,6 +26,9 @@ The Google Play workflow uploads:
 
 - package: `com.prismwin.apps`
 - track: `production`
-- status: `completed`
+- status: `draft`
+
+Google Play allows API-created releases for draft apps only when the release status is `draft`.
+After the first release is manually reviewed/submitted in Play Console and the app is no longer draft, this workflow can be switched back to `completed`.
 
 When running the workflow, set `version_code` to a value higher than every previous Google Play upload.
